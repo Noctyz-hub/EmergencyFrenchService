@@ -1,1 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FES – French Emergency Service</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@300;400;600;700&family=Barlow+Condensed:wght@400;600;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
 
+  <!-- NAVBAR -->
+  <nav id="navbar">
+    <div class="nav-logo">FES</div>
+    <ul class="nav-links">
+      <li><a href="#accueil" class="active">Accueil</a></li>
+      <li><a href="#stats">Stats</a></li>
+      <li><a href="#reseaux">Réseaux</a></li>
+      <li><a href="#updates">Updates</a></li>
+      <li><a href="#galerie">Galerie</a></li>
+    </ul>
+    <div class="nav-online">
+      <span class="dot"></span>
+      <span id="online-count">8</span>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="accueil" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-bg-text">FES</div>
+    <div class="hero-content">
+      <span class="hero-tag">UNE SEULE IDENTITÉ</span>
+      <h1 class="hero-title">FRENCH <span class="accent">EMERGENCY</span> SERVICE</h1>
+      <div class="hero-line"></div>
+      <p class="hero-sub">
+        FES unit <span class="col-red">Pompiers</span>, <span class="col-blue">Police</span> et <span class="col-green">SAMU</span> dans une <span class="col-red">communauté active</span>.
+      </p>
+      <div class="hero-buttons">
+        <a href="#" class="btn btn-primary">🎮 Jouer sur Roblox</a>
+        <a href="#" class="btn btn-outline">💬 Rejoindre le Discord</a>
+        <a href="#" class="btn btn-outline">📺 Aller sur la chaîne</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- AVANCEMENT -->
+  <section class="progress-section">
+    <div class="progress-label">
+      Avancement de FES V.2.1 : <strong id="progress-val">0%</strong>
+    </div>
+    <div class="progress-track">
+      <div class="progress-bar" data-target="62"></div>
+    </div>
+    <p class="progress-sub">Ajout de nouveaux véhicules, systèmes de communication et nouvelles cartes.</p>
+  </section>
+
+  <!-- STATS -->
+  <section id="stats" class="stats-section">
+    <h2 class="section-title">Statistiques</h2>
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-icon">👥</div>
+        <div class="stat-number" data-target="4800">0</div>
+        <div class="stat-label">Membres Discord</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon">🎮</div>
+        <div class="stat-number" data-target="32000">0</div>
+        <div class="stat-label">Visites Roblox</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon">⭐</div>
+        <div class="stat-number" data-target="980">0</div>
+        <div class="stat-label">Favoris</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon">🚨</div>
+        <div class="stat-number" data-target="3">0</div>
+        <div class="stat-label">Corps de métier</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- UPDATES -->
+  <section id="updates" class="updates-section">
+    <h2 class="section-title col-red">Dernières Updates</h2>
+    <div class="updates-list" id="updates-list"></div>
+    <div class="updates-btn-wrap">
+      <button class="btn btn-outline" id="show-more-btn">Voir toutes les updates</button>
+    </div>
+  </section>
+
+  <!-- RÉSEAUX -->
+  <section id="reseaux" class="reseaux-section">
+    <h2 class="section-title col-red">Nos réseaux</h2>
+    <div class="reseaux-grid" id="reseaux-grid"></div>
+  </section>
+
+  <!-- GALERIE -->
+  <section id="galerie" class="galerie-section">
+    <h2 class="section-title">Galerie</h2>
+    <div class="galerie-grid">
+      <div class="galerie-item"><span>🚒</span><p>Camion Pompiers</p></div>
+      <div class="galerie-item"><span>🚓</span><p>Véhicule Police</p></div>
+      <div class="galerie-item"><span>🚑</span><p>Ambulance SAMU</p></div>
+      <div class="galerie-item"><span>🏙️</span><p>La Ville</p></div>
+      <div class="galerie-item"><span>🚁</span><p>Hélicoptère</p></div>
+      <div class="galerie-item"><span>🔧</span><p>Équipements</p></div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-logo">FES</div>
+    <p>© 2026 French Emergency Service – Jeu Roblox</p>
+    <div class="footer-links">
+      <a href="#">Discord</a>
+      <a href="#">Roblox</a>
+      <a href="#">YouTube</a>
+      <a href="#">TikTok</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
